@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Testing", "Testing\Testing.csproj", "{FDED5834-D938-4334-8F2C-E5A631CFBA41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroRPG-Assignment", "Testing\HeroRPG-Assignment.csproj", "{FDED5834-D938-4334-8F2C-E5A631CFBA41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject111", "TestProject111\TestProject111.csproj", "{48624332-28DA-465A-B9D6-7A3708621C3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroRPG-Tests", "TestProject111\HeroRPG-Tests.csproj", "{48624332-28DA-465A-B9D6-7A3708621C3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

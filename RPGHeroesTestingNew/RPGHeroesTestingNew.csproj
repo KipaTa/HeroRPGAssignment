@@ -22,8 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSharp-RPGHeroes\CSharp-RPGHeroes.csproj" />
-    <ProjectReference Include="..\Testing\Testing\HeroRPGAssignment.csproj" />
+    
+    <ProjectReference Include="..\HeroRPGAssignment\HeroRPGAssignment.csproj" />
+  
   </ItemGroup>
 
 </Project>

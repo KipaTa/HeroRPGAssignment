@@ -1,4 +1,4 @@
-# RPGHeroes
+# HeroRPG
 
 ## Table of Contents
 1. [Introduction](#intro)
@@ -8,7 +8,7 @@
 
 <a name="aut"></a>
 ## 1. Introduction
-RPGHeroes is a Console Application in .NET. Application has various hero classes having attributes which increase at different rates as the character gains levels.
+HeroRPG is a Console Application in .NET. Application has various hero classes having attributes which increase at different rates as the character gains levels.
 Each hero can be equipped with certain type of weapons and armor, that will alter the power, cause more damage or able the hero survive longer. 
 
 

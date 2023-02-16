@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroRPGAssignment", "Testing\HeroRPGAssignment.csproj", "{FDED5834-D938-4334-8F2C-E5A631CFBA41}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroRPGTests", "TestProject111\HeroRPGTests.csproj", "{48624332-28DA-465A-B9D6-7A3708621C3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RPGHeroesTestingNew", "..\RPGHeroesTestingNew\RPGHeroesTestingNew.csproj", "{AC4783A9-FA8D-4C7B-810C-7D719E356E2E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{FDED5834-D938-4334-8F2C-E5A631CFBA41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDED5834-D938-4334-8F2C-E5A631CFBA41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDED5834-D938-4334-8F2C-E5A631CFBA41}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48624332-28DA-465A-B9D6-7A3708621C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48624332-28DA-465A-B9D6-7A3708621C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48624332-28DA-465A-B9D6-7A3708621C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48624332-28DA-465A-B9D6-7A3708621C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC4783A9-FA8D-4C7B-810C-7D719E356E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4783A9-FA8D-4C7B-810C-7D719E356E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4783A9-FA8D-4C7B-810C-7D719E356E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4783A9-FA8D-4C7B-810C-7D719E356E2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

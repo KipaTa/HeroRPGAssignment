@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Testing\HeroRPG-Assignment.csproj" />
+    <ProjectReference Include="..\Testing\HeroRPGAssignment.csproj" />
   </ItemGroup>
 
 </Project>

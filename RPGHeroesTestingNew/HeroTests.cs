@@ -257,6 +257,55 @@ namespace RPGHeroesTestingNew
         }
 
 
+        [Fact]
+        public void MageDamage_MageCalculateDamageWithoutWeapon_ShouldBeOne()
+        {
+            //Arrange
+            var NewHero = "Gandalf";
+            int expected = 1;
+
+            //Act
+            Mage heroObj = new(NewHero);
+            double heroDamage = heroObj.Damage();
+            //Assert
+            Assert.Equal(expected, heroDamage);
+        }
+
+        [Fact]
+        public void MageDamage_MageCalculateDamageWithWeaponWithDamageThree_ShouldBeThree()
+        {
+            //Arrange
+            var NewHero = "Gandalf";
+            var NewWeapon = "Eldervand";
+            int expected = 3;
+
+            //Act
+            Mage heroObj = new(NewHero);
+            Weapon weapon1 = new Weapon(NewWeapon, 1, HeroRPGAssignment.Enums.WeaponType.Wand, 3);
+            heroObj.EquipWeapon(weapon1);
+            double heroDamage = heroObj.Damage();
+            //Assert
+            Assert.Equal(expected, heroDamage);
+        }
+
+        [Fact]
+        public void MageDamage_MageCalculateDamageWithWeaponWithDamageThreeAndArmor_ShouldBeThree()
+        {
+            //Arrange
+            var NewHero = "Gandalf";
+            var NewWeapon = "Eldervand";
+            int expected = 3;
+
+            //Act
+            Mage heroObj = new(NewHero);
+            Weapon weapon1 = new Weapon(NewWeapon, 1, HeroRPGAssignment.Enums.WeaponType.Wand, 3);
+            heroObj.EquipWeapon(weapon1);
+            Armor armor1 = new Armor("Jacket", 1, HeroRPGAssignment.Enums.ArmorType.Cloth, HeroRPGAssignment.Enums.SlotType.Body, new HeroAttributes() { Strength = 2, Dexterity = 1, Intelligence = 9 });
+            heroObj.EquipArmor(armor1);
+            double heroDamage = heroObj.Damage();
+            //Assert
+            Assert.Equal(expected, heroDamage);
+        }
 
 
 

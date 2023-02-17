@@ -113,7 +113,7 @@ namespace HeroRPGAssignment.HeroClasses
             TotalAttributes();
 
             double damage = Convert.ToDouble(WeaponDamage) * (1.0 + Convert.ToDouble(TotalLevelAttributes.Intelligence) / 100.0);
-            damage = Math.Round(damage, 2);
+            damage = Math.Floor(damage);
 
             return damage;
         }
